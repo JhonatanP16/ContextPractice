@@ -61,7 +61,7 @@ const Filter = () => {
          {btnFilter}
         <section 
         className={`${classes.filter} ${
-          elementVisible ? classes.filterSaved : ''
+          elementVisible ? classes.filterVisible : ''
         }`}>
           <ButtonClose
           onClose={()=>setElementVisible(false)}

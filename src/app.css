@@ -34,7 +34,6 @@
 .app {
     background: var(--cor-bg);
     color: var(--cor-6);
-    height: 5000px;
 }
 .body {
     font-family: "Quicksand", sans-serif;
